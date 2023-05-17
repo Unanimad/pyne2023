@@ -51,7 +51,6 @@ body{
     display: flex;
     justify-content: space-around;
     background-color: #f3a56d;
-    padding: .75rem;
     position: fixed;
     top: 0;
     overflow: hidden;
@@ -345,16 +344,15 @@ body{
 }
 
 .navbar button{
-    border:0;
-    background-color: #F2A56D;
+    padding: .75rem;
+    border: 0;
+    background-color: #f3a56d;
 }
 
-.navbar button:hover{
-    border:white;
-
-    background-color: #299BA6;
+.navbar button a:hover{
+    padding-bottom: 9px;
+    border-bottom: 3px solid #299BA6;
 }
-
 
 .navbar a, .social-media a, .social-media a:link, .social-media a:visited {
   text-decoration: none;
